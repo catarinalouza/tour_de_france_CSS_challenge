@@ -1,0 +1,369 @@
+* {
+    font-family: 'Roboto', sans-serif;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    color: #000;
+    line-height: 1.5;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 10%;
+}
+
+footer {
+    padding: 20px 10%;
+    text-align: center;
+}
+
+.footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px 10%;
+}
+
+#social_media_icons {
+    padding: 0 20px 0 20px;
+}
+
+#logo {
+    cursor: pointer;
+    font-family: 'Roboto', sans-serif;
+    font-size: 20px;
+    font-weight: 700;
+    transition: all 0.3s ease 0s;
+    cursor: pointer;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    padding: 0 20px 0 0;
+}
+
+#logo:hover {
+    color: rgb(255, 255, 5);
+}
+
+.logotitle:hover {
+    color: rgb(255, 255, 5);
+}
+
+.title:hover {
+    color: rgb(255, 255, 5);
+}
+
+.logo_title {
+    display: flex;
+}
+
+.nav_links {
+    font-family: 'Roboto', sans-serif;
+    list-style: none;
+    text-decoration: none;
+}
+
+.nav_links li {
+    display: inline-block;
+    padding: 0 20px;
+    align-items: flex-end;
+}
+
+.nav_links li a {
+    font-size: 16px;
+    font-weight: 400;
+    transition: all 0.3s ease 0s;
+}
+
+.nav_links li a:hover {
+    color: rgb(255, 255, 5);
+}
+
+#main_section {
+    min-height: 100%;
+    background-image: url(_images/Background_Image.jpg);
+    background-color: rgb(70, 70, 70);
+    background-size: cover;
+    background-position: center;
+    background-blend-mode: overlay;
+}
+
+#main_title {
+    font-family: 'Roboto', sans-serif;
+    color: white;
+    font-size: 120px;
+    font-weight: 700;
+    padding: 350px 200px 0 200px;
+    text-align: center;
+}
+
+#secondary_title {
+    font-family: 'Roboto', sans-serif;
+    color: white;
+    font-size: 32px;
+    font-weight: 400;
+    text-align: center;
+    padding: 0 200px 350px 200px;
+}
+
+#main_content,
+#secondary_content,
+#stage_table {
+    padding: 20px 10%;
+}
+
+#route_map {
+    padding: 20px 10%;
+    text-align: center;
+}
+
+figcaption {
+    font-size: 14px;
+    font-weight: 100;
+    padding: 10px 10%;
+    text-align: center;
+}
+
+h3 {
+    padding: 10px 0 10px 0;
+}
+
+/* 
+#content {
+    padding: 20px 0 20px 0;
+} */
+
+ul {
+    list-style: none;
+    padding: 10px;
+}
+
+
+/* THE TEAMS PAGE */
+
+.team {
+    padding: 20px;
+    text-align: right;
+    max-width: 250px;
+    max-height: max-content;
+}
+
+.teams_all {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-items: flex-start;
+}
+
+/* #cyclists {
+    text-transform: uppercase;
+    text-align: center;
+    padding: 50px 50px 10px 50px;
+    font-size: 35px;
+    border-bottom: rgb(255, 255, 5) solid 10px;
+    margin-bottom: 50px;
+    width: 75%;
+    margin-left: 12.5%;
+} */
+
+div.team {
+    border-radius: 5%;
+}
+
+div.team:hover {
+    background-color: rgb(255, 255, 5);
+    transition: 2s;
+    transform: scale(1.1) translate(0px, -10px);
+}
+
+.teams_short {
+    text-align: center;
+}
+
+#proteam_list {
+    border: #000 solid;
+    width: 50%;
+    margin-left: 25%;
+    text-align: center;
+}
+
+#proteam_list li {
+    display: flex;
+    justify-content: space-evenly;
+    display: inline-block;
+    padding: 10px 50px;
+
+}
+
+#proteam_list li:hover {
+    border-right-style: solid;
+    border-right-width: 8px;
+    background-color: rgb(255, 255, 5);
+    transition: 1s;
+    transform: translate(-4px, 0px);
+}
+
+#worldtour_teams_list li {
+    display: flex;
+    justify-content: space-evenly;
+    display: inline-block;
+    padding: 10px 50px;
+}
+
+#worldtour_teams_list li:hover {
+    border-right-style: solid;
+    border-right-width: 8px;
+    background-color: rgb(255, 255, 5);
+    transition: 1s;
+    transform: translate(-4px, 0px);
+}
+
+#proteam_h3 {
+    padding-top: 50px;
+    text-transform: uppercase;
+}
+
+#team_h3,
+.route_h3 {
+    text-transform: uppercase;
+}
+
+div.team h3 {
+    background-color: black;
+    color: #fff;
+    text-align: left;
+    padding: 0px 3px;
+}
+
+#teams_heading {
+    text-transform: uppercase;
+    text-align: center;
+    padding: 50px 50px 10px 50px;
+    font-size: 50px;
+    border-bottom: rgb(255, 255, 5) solid 10px;
+    margin-bottom: 50px;
+    width: 100%;
+}
+
+#worldtour_teams_list {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    align-content: center;
+    justify-content: center;
+    border: solid black 6px;
+    width: 50%;
+    margin-left: 25%;
+    padding: 5px;
+}
+
+#proteam_list {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    align-content: center;
+    justify-content: center;
+    border: solid black 6px;
+    width: 50%;
+    margin-left: 25%;
+    padding: 5px;
+}
+
+#allteams>li:hover {
+    color: #fff;
+    background-color: #000;
+    transform: scale(1.1);
+}
+
+#allteams>li {
+    padding: 8px;
+    display: inline-block;
+}
+
+#wt_team {
+    padding: 10px;
+    text-align: left;
+}
+
+#team_jerseys {
+    text-align: center;
+    padding: 25px 0 0 0;
+    margin: 0 25% 0 25%;
+}
+
+/* THE ROUTE PAGE */
+
+#route_heading {
+    text-transform: uppercase;
+    text-align: center;
+    padding: 50px 50px 10px 50px;
+    font-size: 50px;
+    border-bottom: rgb(255, 255, 5) solid 10px;
+    margin-bottom: 50px;
+    width: 100%;
+}
+
+table {
+    margin: auto;
+    border-spacing: 10px;
+    border-collapse: separate;
+    text-align: left;
+}
+
+.table_head {
+    font-weight: 700;
+    font-size: 18px;
+    text-align: left;
+    text-transform: uppercase;
+    background-color: rgb(255, 255, 5);
+    padding: 10px;
+    border-bottom: none;
+}
+
+td {
+    padding: 10px 20px 5px 20px;
+    text-align: left;
+    border-bottom: 1px solid #000;
+}
+
+td:hover {
+    background-color: rgb(255, 255, 5);
+}
+
+.td_right_align {
+    text-align: right;
+}
+
+#rest_day {
+    background-color: white;
+    border-bottom: none;
+}
+
+.route_map {
+    float: right;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    margin-left: 100px;
+}
+
+.route_h3 {
+    text-transform: uppercase;
+    margin-top: 50px;
+}
+
+.route_h3_fullscreen {
+    text-transform: uppercase;
+    padding: 50px 0 0 0;
+}
+
+.copenhagen_img {
+    float: left;
+    display: flex;
+    flex-direction: column;
+    margin-right: 100px;
+}
